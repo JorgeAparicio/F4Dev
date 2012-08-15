@@ -1,0 +1,804 @@
+# EESchema Netlist Version 1.1 created  Tue 14 Aug 2012 09:43:47 PM PET
+(
+ ( /50037918 c_0805 C1 4u7
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036FE0 c_0805 C2 10n
+  ( 1 GND )
+  ( 2 /VREF+ )
+ )
+ ( /50036FAD c_0805 C3 1u
+  ( 1 GND )
+  ( 2 /VREF+ )
+ )
+ ( /50036FA8 c_0805 C4 1u
+  ( 1 GND )
+  ( 2 /VDDA )
+ )
+ ( /50036FC9 c_0805 C5 10n
+  ( 1 GND )
+  ( 2 /VDDA )
+ )
+ ( /50036F06 c_0805 C6 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036F05 c_0805 C7 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036F04 c_0805 C8 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036F03 c_0805 C9 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036F01 c_0805 C10 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036EFE c_0805 C11 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50036EF7 c_0805 C12 1u
+  ( 1 GND )
+  ( 2 /VBAT )
+ )
+ ( /50035EFE c_0805 C13 22p
+  ( 1 /OSC_IN )
+  ( 2 GND )
+ )
+ ( /50035F05 c_0805 C14 22p
+  ( 1 /OSC_OUT )
+  ( 2 GND )
+ )
+ ( /502A6A45 c_0805 C15 10u
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /502A6A3F c_0805 C16 100n
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50036EC0 c_0805 C17 2u2
+  ( 1 /VCAP_1 )
+  ( 2 GND )
+ )
+ ( /50036EC4 c_0805 C18 2u2
+  ( 1 /VCAP_2 )
+  ( 2 GND )
+ )
+ ( /50037F90 c_0805 C19 4u7
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50037F86 c_0805 C20 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50037F59 c_0805 C21 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50037FB2 c_0805 C22 100n
+  ( 1 GND )
+  ( 2 /3V3OUT )
+ )
+ ( /500390C4 c_0805 C23 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /500390C2 c_0805 C24 10u
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /50038703 c_0805 C25 100n
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /5003870B c_0805 C26 10u
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /500390AA c_0805 C27 220n
+  ( 1 N-000137 )
+  ( 2 N-000122 )
+ )
+ ( /50038716 c_0805 C28 10n
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /50039108 c_0805 C29 4u7
+  ( 1 N-000123 )
+  ( 2 GND )
+ )
+ ( /50037D01 c_0805 C30 1u
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50037CF8 c_0805 C31 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /50037CED c_0805 C32 10n
+  ( 1 /BYP )
+  ( 2 GND )
+ )
+ ( /50037D29 c_0805 C33 100n
+  ( 1 /VOUT )
+  ( 2 GND )
+ )
+ ( /50037D2B c_0805 C34 1u
+  ( 1 /VOUT )
+  ( 2 GND )
+ )
+ ( /50038633 c_0805 C35 100n
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5003863D c_0805 C36 10u
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /5004785C c_0805 C37 100n
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /500378E8 sod323 D1 DIODESCH
+  ( 1 3V3 )
+  ( 2 VDD )
+ )
+ ( /50037DB3 r_0805 D2 LED
+  ( 1 /PC13 )
+  ( 2 N-000022 )
+ )
+ ( /502A6C55 r_0805 D3 LED
+  ( 1 N-000125 )
+  ( 2 N-000124 )
+ )
+ ( /50037D25 sod323 D4 DIODESCH
+  ( 1 /VOUT )
+  ( 2 VDD )
+ )
+ ( /500381B7 r_0805 D5 LED
+  ( 1 VDD )
+  ( 2 N-000034 )
+ )
+ ( /50036F80 r_0805 FB1 FILTER
+  ( 1 VDD )
+  ( 2 /VDDA )
+ )
+ ( /50037A7F conn_usb_mini_th J1 USB_MINI
+  ( 1 +5V )
+  ( 2 /DM )
+  ( 3 /DP )
+  ( 4 ? )
+  ( 5 GND )
+ )
+ ( /5005A501 oshw_silkscreen_5 LOGO1 OPEN_HARDWARE
+ )
+ ( /500387E2 pin_strip_12x2 P1 CONN_12X2
+  ( 1 /PB12 )
+  ( 2 /PB13 )
+  ( 3 /PB14 )
+  ( 4 /PB15 )
+  ( 5 /PD8 )
+  ( 6 /PD9 )
+  ( 7 /PD10 )
+  ( 8 /PD11 )
+  ( 9 /PD12 )
+  ( 10 /PD13 )
+  ( 11 /PD14 )
+  ( 12 /PD15 )
+  ( 13 /PC6 )
+  ( 14 /PC7 )
+  ( 15 /PC8 )
+  ( 16 /PC9 )
+  ( 17 /PA8 )
+  ( 18 /PA9 )
+  ( 19 /PA10 )
+  ( 20 /PA11 )
+  ( 21 /PA12 )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 GND )
+ )
+ ( /500387E4 pin_strip_12x2 P2 CONN_12X2
+  ( 1 /PC10 )
+  ( 2 /PC11 )
+  ( 3 /PC12 )
+  ( 4 /PD0 )
+  ( 5 /PD1 )
+  ( 6 /PD2 )
+  ( 7 /PD3 )
+  ( 8 /PD4 )
+  ( 9 /PD5 )
+  ( 10 /PD6 )
+  ( 11 /PD7 )
+  ( 12 ? )
+  ( 13 /PB4 )
+  ( 14 /PB5 )
+  ( 15 /PB6 )
+  ( 16 /PB7 )
+  ( 17 /BOOT0 )
+  ( 18 /PB8 )
+  ( 19 /PB9 )
+  ( 20 /PE0 )
+  ( 21 /PE1 )
+  ( 22 GND )
+  ( 23 3V3 )
+  ( 24 ? )
+ )
+ ( /500387D5 pin_strip_13x2 P3 CONN_13X2
+  ( 1 /PE2 )
+  ( 2 /PE3 )
+  ( 3 /PE4 )
+  ( 4 /PE5 )
+  ( 5 /PE6 )
+  ( 6 /VBAT )
+  ( 7 /PC13 )
+  ( 8 /PC14 )
+  ( 9 /PC15 )
+  ( 10 GND )
+  ( 11 3V3 )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 /NRST )
+  ( 15 /PC0 )
+  ( 16 /PC1 )
+  ( 17 /PC2 )
+  ( 18 /PC3 )
+  ( 19 3V3 )
+  ( 20 GND )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 /PA0 )
+  ( 24 /PA1 )
+  ( 25 /PA2 )
+  ( 26 ? )
+ )
+ ( /500387DB pin_strip_13x2 P4 CONN_13X2
+  ( 1 /PA3 )
+  ( 2 GND )
+  ( 3 3V3 )
+  ( 4 /PA4 )
+  ( 5 /PA5 )
+  ( 6 /PA6 )
+  ( 7 /PA7 )
+  ( 8 /PC4 )
+  ( 9 /PC5 )
+  ( 10 /PB0 )
+  ( 11 /PB1 )
+  ( 12 /PB2 )
+  ( 13 /PE7 )
+  ( 14 /PE8 )
+  ( 15 /PE9 )
+  ( 16 /PE10 )
+  ( 17 /PE11 )
+  ( 18 /PE12 )
+  ( 19 /PE13 )
+  ( 20 /PE14 )
+  ( 21 /PE15 )
+  ( 22 /PB10 )
+  ( 23 /PB11 )
+  ( 24 ? )
+  ( 25 3V3 )
+  ( 26 ? )
+ )
+ ( /50037DE4 pin_strip_6 P5 CONN_6
+  ( 1 VDD )
+  ( 2 GND )
+  ( 3 /PA14 )
+  ( 4 /PB3 )
+  ( 5 /PA15 )
+  ( 6 /PA13 )
+ )
+ ( /50036F71 r_0805 R1 47
+  ( 1 /VDDA )
+  ( 2 /VREF+ )
+ )
+ ( /50035F13 r_0805 R2 10k
+  ( 1 VDD )
+  ( 2 /BOOT0 )
+ )
+ ( /50037DC1 r_0805 R3 1k
+  ( 1 N-000022 )
+  ( 2 GND )
+ )
+ ( /502A6C61 r_0805 R4 1k
+  ( 1 N-000124 )
+  ( 2 GND )
+ )
+ ( /500381BB r_0805 R5 1k
+  ( 1 N-000034 )
+  ( 2 GND )
+ )
+ ( /500376C6 pcb_push_smd_52_52 SW1 SW_PUSH_SMALL_4_PINS
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 /NRST )
+  ( 4 ? )
+ )
+ ( /5003621A TQFP-100 U1 STM32F407VG
+  ( 1 /PE2 )
+  ( 2 /PE3 )
+  ( 3 /PE4 )
+  ( 4 /PE5 )
+  ( 5 /PE6 )
+  ( 6 /VBAT )
+  ( 7 /PC13 )
+  ( 8 /PC14 )
+  ( 9 /PC15 )
+  ( 10 GND )
+  ( 11 VDD )
+  ( 12 /OSC_IN )
+  ( 13 /OSC_OUT )
+  ( 14 /NRST )
+  ( 15 /PC0 )
+  ( 16 /PC1 )
+  ( 17 /PC2 )
+  ( 18 /PC3 )
+  ( 19 VDD )
+  ( 20 GND )
+  ( 21 /VREF+ )
+  ( 22 /VDDA )
+  ( 23 /PA0 )
+  ( 24 /PA1 )
+  ( 25 /PA2 )
+  ( 26 /PA3 )
+  ( 27 GND )
+  ( 28 VDD )
+  ( 29 /PA4 )
+  ( 30 /PA5 )
+  ( 31 /PA6 )
+  ( 32 /PA7 )
+  ( 33 /PC4 )
+  ( 34 /PC5 )
+  ( 35 /PB0 )
+  ( 36 /PB1 )
+  ( 37 /PB2 )
+  ( 38 /PE7 )
+  ( 39 /PE8 )
+  ( 40 /PE9 )
+  ( 41 /PE10 )
+  ( 42 /PE11 )
+  ( 43 /PE12 )
+  ( 44 /PE13 )
+  ( 45 /PE14 )
+  ( 46 /PE15 )
+  ( 47 /PB10 )
+  ( 48 /PB11 )
+  ( 49 /VCAP_1 )
+  ( 50 VDD )
+  ( 51 /PB12 )
+  ( 52 /PB13 )
+  ( 53 /PB14 )
+  ( 54 /PB15 )
+  ( 55 /PD8 )
+  ( 56 /PD9 )
+  ( 57 /PD10 )
+  ( 58 /PD11 )
+  ( 59 /PD12 )
+  ( 60 /PD13 )
+  ( 61 /PD14 )
+  ( 62 /PD15 )
+  ( 63 /PC6 )
+  ( 64 /PC7 )
+  ( 65 /PC8 )
+  ( 66 /PC9 )
+  ( 67 /PA8 )
+  ( 68 /PA9 )
+  ( 69 /PA10 )
+  ( 70 /PA11 )
+  ( 71 /PA12 )
+  ( 72 /PA13 )
+  ( 73 /VCAP_2 )
+  ( 74 GND )
+  ( 75 VDD )
+  ( 76 /PA14 )
+  ( 77 /PA15 )
+  ( 78 /PC10 )
+  ( 79 /PC11 )
+  ( 80 /PC12 )
+  ( 81 /PD0 )
+  ( 82 /PD1 )
+  ( 83 /PD2 )
+  ( 84 /PD3 )
+  ( 85 /PD4 )
+  ( 86 /PD5 )
+  ( 87 /PD6 )
+  ( 88 /PD7 )
+  ( 89 /PB3 )
+  ( 90 /PB4 )
+  ( 91 /PB5 )
+  ( 92 /PB6 )
+  ( 93 /PB7 )
+  ( 94 /BOOT0 )
+  ( 95 /PB8 )
+  ( 96 /PB9 )
+  ( 97 /PE0 )
+  ( 98 /PE1 )
+  ( 99 GND )
+  ( 100 VDD )
+ )
+ ( /502A691D BT0417CX U2 BT0417C
+  ( 1 /PB11 )
+  ( 2 /PB10 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 VDD )
+  ( 13 GND )
+  ( 14 GND )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 N-000125 )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 ? )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+ )
+ ( /50037ED7 ssop-16 U3 FT230XS
+  ( 1 /PA10 )
+  ( 2 ? )
+  ( 3 VDD )
+  ( 4 /PA9 )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 /DP )
+  ( 9 /DM )
+  ( 10 /3V3OUT )
+  ( 11 ? )
+  ( 12 +5V )
+  ( 13 GND )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+ )
+ ( /5003908D lga-14 U4 LSM303DLHC
+  ( 1 VDD )
+  ( 2 /PB8 )
+  ( 3 /PB9 )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 N-000123 )
+  ( 7 GND )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 GND )
+  ( 12 N-000122 )
+  ( 13 N-000137 )
+  ( 14 VDD )
+ )
+ ( /50038672 lga-16 U5 L3GD20
+  ( 1 VDD )
+  ( 2 /PB8 )
+  ( 3 /PB9 )
+  ( 4 VDD )
+  ( 5 VDD )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 GND )
+  ( 9 GND )
+  ( 10 GND )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 N-000035 )
+  ( 15 VDD )
+  ( 16 VDD )
+ )
+ ( /50047716 LCC8 U6 BMP085
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 VDD )
+  ( 4 VDD )
+  ( 5 ? )
+  ( 6 /PB8 )
+  ( 7 /PB9 )
+  ( 8 ? )
+ )
+ ( /50037CD9 sot23-5 U7 LD3985M/G
+  ( 1 +5V )
+  ( 2 GND )
+  ( 3 +5V )
+  ( 4 /BYP )
+  ( 5 /VOUT )
+ )
+ ( /500385D9 hlga-6 U8 MP45DT02
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 /PB13 )
+  ( 5 /PB15 )
+  ( 6 VDD )
+ )
+ ( /50035EFA hc-49s X1 8MHz
+  ( 1 /OSC_IN )
+  ( 2 /OSC_OUT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C24
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C26
+ SM*
+ C?
+ C1-1
+$endlist
+$component C27
+ SM*
+ C?
+ C1-1
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C33
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
