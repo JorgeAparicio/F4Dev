@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Tue 14 Aug 2012 09:43:47 PM PET
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 19 Aug 2012 03:21:03 PM PET
 
 BeginCmp
 TimeStamp = /50037918;
@@ -260,6 +260,13 @@ IdModule  = c_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /50314A38;
+Reference = C38;
+ValeurCmp = 470n;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /500378E8;
 Reference = D1;
 ValeurCmp = DIODESCH;
@@ -382,6 +389,13 @@ BeginCmp
 TimeStamp = /500381BB;
 Reference = R5;
 ValeurCmp = 1k;
+IdModule  = r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50314A30;
+Reference = R6;
+ValeurCmp = 10k;
 IdModule  = r_0805;
 EndCmp
 

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 14 Aug 2012 09:43:47 PM PET
+# EESchema Netlist Version 1.1 created  Sun 19 Aug 2012 03:21:03 PM PET
 (
  ( /50037918 c_0805 C1 4u7
   ( 1 GND )
@@ -105,11 +105,11 @@
   ( 2 VDD )
  )
  ( /500390AA c_0805 C27 220n
-  ( 1 N-000137 )
+  ( 1 N-000135 )
   ( 2 N-000122 )
  )
  ( /50038716 c_0805 C28 10n
-  ( 1 N-000035 )
+  ( 1 N-000037 )
   ( 2 GND )
  )
  ( /50039108 c_0805 C29 4u7
@@ -148,13 +148,17 @@
   ( 1 VDD )
   ( 2 GND )
  )
+ ( /50314A38 c_0805 C38 470n
+  ( 1 GND )
+  ( 2 N-000134 )
+ )
  ( /500378E8 sod323 D1 DIODESCH
   ( 1 3V3 )
   ( 2 VDD )
  )
  ( /50037DB3 r_0805 D2 LED
   ( 1 /PC13 )
-  ( 2 N-000022 )
+  ( 2 N-000020 )
  )
  ( /502A6C55 r_0805 D3 LED
   ( 1 N-000125 )
@@ -166,7 +170,7 @@
  )
  ( /500381B7 r_0805 D5 LED
   ( 1 VDD )
-  ( 2 N-000034 )
+  ( 2 N-000035 )
  )
  ( /50036F80 r_0805 FB1 FILTER
   ( 1 VDD )
@@ -306,7 +310,7 @@
   ( 2 /BOOT0 )
  )
  ( /50037DC1 r_0805 R3 1k
-  ( 1 N-000022 )
+  ( 1 N-000020 )
   ( 2 GND )
  )
  ( /502A6C61 r_0805 R4 1k
@@ -314,8 +318,12 @@
   ( 2 GND )
  )
  ( /500381BB r_0805 R5 1k
-  ( 1 N-000034 )
+  ( 1 N-000035 )
   ( 2 GND )
+ )
+ ( /50314A30 r_0805 R6 10k
+  ( 1 N-000134 )
+  ( 2 N-000037 )
  )
  ( /500376C6 pcb_push_smd_52_52 SW1 SW_PUSH_SMALL_4_PINS
   ( 1 GND )
@@ -492,7 +500,7 @@
   ( 10 GND )
   ( 11 GND )
   ( 12 N-000122 )
-  ( 13 N-000137 )
+  ( 13 N-000135 )
   ( 14 VDD )
  )
  ( /50038672 lga-16 U5 L3GD20
@@ -509,7 +517,7 @@
   ( 11 GND )
   ( 12 GND )
   ( 13 GND )
-  ( 14 N-000035 )
+  ( 14 N-000037 )
   ( 15 VDD )
   ( 16 VDD )
  )
@@ -730,6 +738,11 @@ $component C37
  C?
  C1-1
 $endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
 $component D1
  D?
  S*
@@ -794,6 +807,13 @@ $component R4
  SM1206
 $endlist
 $component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
  R?
  SM0603
  SM0805
