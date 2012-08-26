@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 25 Aug 2012 10:13:50 PM PET
+PCBNEW-BOARD Version 1 date Sat 25 Aug 2012 11:07:22 PM PET
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 250
 NoConn 0
 Di 36220 36220 63781 63781
-Ndraw 31
+Ndraw 30
 Ntrack 736
 Nzone 0
 BoardThickness 630
@@ -57,7 +57,7 @@ TextModSize 600 600
 TextModWidth 120
 PadSize 2756 2756
 PadDrill 0
-Pad2MaskClearance 100
+Pad2MaskClearance 0
 AuxiliaryAxisOrg 0 0
 PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
@@ -5037,11 +5037,6 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  c_0805
-$TEXTPCB
-Te "ORDER 57346"
-Po 50000 51000 400 400 50 0
-De 21 1 0 Normal
-$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 57874 40157 40157 40157 50
 De 20 0 900 0 0
