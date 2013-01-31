@@ -1,4 +1,4 @@
-update=Mon 13 Aug 2012 09:49:50 PM PET
+update=Thu 31 Jan 2013 05:53:08 PM PET
 version=1
 last_client=eeschema
 [cvpcb]
@@ -153,4 +153,3 @@ LibName51=../library/library/ttl_ieee
 LibName52=../library/library/valves
 LibName53=../library/library/video
 LibName54=../library/library/xilinx
-LibName55=../library/library/pcb
